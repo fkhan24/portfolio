@@ -8,5 +8,8 @@
 
   --font-primary: "Lust", serif;
   --font-secondary: "Source Sans Pro", sans-serif;
+}
 
+html {
+  font-family: var(--font-primary);
 }
