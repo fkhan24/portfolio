@@ -1,6 +1,7 @@
-.background-colour {
-  background-image: url(/images/Mandala.png;
+.banner {
+  background-image: url(/images/mandala.jpg;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
