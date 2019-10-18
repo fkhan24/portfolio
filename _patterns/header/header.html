@@ -4,22 +4,27 @@
 </ul>
 
 <div>
-  <div class="banner gutter-2 pad-t-2 pad-b-2">
+
+  <div class="banner pad-t-2">
 
     <div class="title text-center">
-      <div class="logo pad-t-2">
-        <img src="images/logo.svg" alt="">
+      <div class="pad-t-2 logo">
+        <a href="#"><img class="img-flex" src="/images/logo.svg" alt="Logo"></a>
       </div>
-      <h1 class="yotta pad-t gutter">Fatima Khan</h1>
+      <h1 class="yotta pad-t">Fatima Khan</h1>
     </div>
 
-    <nav class="pad-t-2 text-center header-nav" role="navigation" id="nav">
-      <ul class="list-group-inline push-0">
-        <li class="gutter-1-2 {% if page.highlight_nav == 'products' %}current{% endif %}"><a href="/products/">ABOUT</a></li>
-        <li class="gutter-1-2"><a href="#">WORK</a></li>
-        <li class="gutter-1-2"><a href="#">CONTACT</a></li>
-      </ul>
-    </nav>
+    <div class="grid">
+      <div class="unit xs-1 m-1">
+        <nav class="pad-t-2 text-center header-nav" role="navigation" id="nav">
+          <ul class="list-group-inline push-0">
+            <li class="gutter-2 {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="nav-colour" href="/products/">ABOUT</a></li>
+            <li class="gutter-2"><a class="nav-colour" href="#">WORK</a></li>
+            <li class="gutter-2"><a class="nav-colour" href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
   </div>
 </div>

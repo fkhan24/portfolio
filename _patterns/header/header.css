@@ -1,7 +1,33 @@
 .banner {
-  background-image: url(/images/mandala.jpg;
+  background-color: var(--color-secondary);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.nav-colour {
+  color: var(--color-secondary-light);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+}
+
+.nav-colour:hover {
+  color: #fff;
+  border: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: medium;
+  border-color: var(--color-primary);
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
 }
