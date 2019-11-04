@@ -83,3 +83,7 @@ p {
   transform: scale(1.2);
   transition: all 135ms ease;
 }
+
+.bio {
+  background-color: var(--color-secondary-light);
+}

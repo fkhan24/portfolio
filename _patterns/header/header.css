@@ -1,8 +1,9 @@
 .header-banner {
-  background-color: var(--color-secondary-light);
+  background-image: url(/images/donut.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80vh;
 }
 
 .nav-colour {
@@ -24,4 +25,9 @@
 .logo {
   max-width: 200px;
   margin: 0 auto;
+}
+
+.title {
+  color: #000;
+  font-family: var(--font-primary);
 }

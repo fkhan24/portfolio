@@ -1,10 +1,11 @@
 :root {
   --color-primary: #8e0b12;
-  --color-primary-light: rgba(0, 0, 0, .7);
+  --color-primary-light: #a8454a;
   --color-secondary: #323232;
   --color-secondary-light: #e2e2e2;
   --color-neutral: #fae2c3;
   --color-accent: #000;
+  --color-orange: #e37a36;
 
   --font-primary: "Lust", serif;
   --font-secondary: "Source Sans Pro", sans-serif;
