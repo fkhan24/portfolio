@@ -1,24 +1,18 @@
-.banner {
-  background-color: var(--color-secondary);
+.header-banner {
+  background-color: var(--color-secondary-light);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-}
-
-h1 {
-  color: #fff;
-  letter-spacing: 3px;
 }
 
 .nav-colour {
-  color: var(--color-secondary-light);
+  color: var(--color-accent);
   text-decoration: none;
   font-family: var(--font-secondary);
 }
 
 .nav-colour:hover {
-  color: #fff;
+  color: #000;
   border: solid;
   border-top: 0;
   border-left: 0;
