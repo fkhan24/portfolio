@@ -1,5 +1,5 @@
 .background {
-  background-image: url(/images/maandala.png);
+  background-image: url(/images/background.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@
 }
 
 .layer {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
   left: 0;
