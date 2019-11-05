@@ -1,5 +1,5 @@
 .header-banner {
-  background-image: url(/images/donut.jpeg);
+  background-color: #400D1A;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,13 +7,13 @@
 }
 
 .nav-colour {
-  color: var(--color-accent);
+  color: #fff;
   text-decoration: none;
   font-family: var(--font-secondary);
 }
 
 .nav-colour:hover {
-  color: #000;
+  color: #fff;
   border: solid;
   border-top: 0;
   border-left: 0;

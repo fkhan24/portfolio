@@ -1,9 +1,9 @@
 .box-1 {
-  background-color: var(--color-secondary);
+  background-color: #801935;
 }
 
 .box-2 {
-  background-color: var(--color-primary);
+  background-color: #631429;
 }
 
 .hover-box-type {
@@ -60,7 +60,7 @@ h2, .about-text {
   color: #000;
 }
 
-p {
+.about-text {
   font-family: var(--font-secondary);
 }
 
@@ -86,4 +86,8 @@ p {
 
 .bio {
   background-color: var(--color-secondary-light);
+}
+
+section {
+  background-color: #fff;
 }
