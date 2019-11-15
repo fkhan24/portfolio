@@ -1,9 +1,14 @@
 .btn-one {
   border-radius: 100px;
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
+  background-color: #BF264F;
+  border-color: #BF264F;
+}
+
+.btn:hover {
+  background-color: #BF264F;
+  border-color: #BF264F;
 }
 
 .btn:focus {
-  outline: 3px solid #000;
+  outline: 3px solid #fff;
 }

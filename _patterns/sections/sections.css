@@ -77,3 +77,29 @@ h2, .about-text {
 section {
   background-color: #fff;
 }
+
+.name {
+  color: #801935;
+}
+
+.about-title {
+  color: #801935;
+  font-family: var(--font-primary);
+}
+
+.hr-one {
+  color: #801935;
+  border-top: 3px solid #801935;
+  max-width: 145px;
+}
+
+.hr-two {
+  color: #801935;
+  border-top: 3px solid #801935;
+  max-width: 270px;
+}
+
+li {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}

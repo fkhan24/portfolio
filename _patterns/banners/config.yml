@@ -12,4 +12,4 @@ patterns:
         example: "banner"
       - name: text
         type: string
-        example: "I am a Graphic designer based in ottawa."
+        example: "Welcome to my page!."
