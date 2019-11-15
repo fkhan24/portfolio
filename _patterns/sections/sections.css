@@ -74,20 +74,6 @@ h2, .about-text {
   transition: all .2s linear;
 }
 
-
-.social-icon {
-  max-width: 6em;
-}
-
-.social-icon:hover {
-  transform: scale(1.2);
-  transition: all 135ms ease;
-}
-
-.bio {
-  background-color: var(--color-secondary-light);
-}
-
 section {
   background-color: #fff;
 }

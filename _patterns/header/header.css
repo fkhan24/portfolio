@@ -1,19 +1,19 @@
 .header-banner {
-  background-color: #400D1A;
+  background-color: #e2e2e2;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 40vh;
 }
 
 .nav-colour {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-family: var(--font-secondary);
 }
 
 .nav-colour:hover {
-  color: #fff;
+  color: #000;
   border: solid;
   border-top: 0;
   border-left: 0;
@@ -23,7 +23,7 @@
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 170px;
   margin: 0 auto;
 }
 

@@ -1,2 +1,15 @@
+title: "Banners"
 description: |
-  The purpose of the navigation is to successfully link all buttons and copright notice.
+  Banners are used as a call to action on the main page and on a secondary page.
+patterns:
+  banner:
+    title: "Main Banner"
+    description: |
+      Main banner with call to action and button linking to projects.
+    fields:
+      - name: image
+        type: string
+        example: "banner"
+      - name: text
+        type: string
+        example: "I am a Graphic designer based in ottawa."

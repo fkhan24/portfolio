@@ -1,14 +1,15 @@
 footer {
-  background-color: #400D1A;
+  background-color: #631429;
   color: #BF264F;
   font-family: var(--font-secondary);
 }
 
 .social-icon {
   max-width: 3em;
+  transform: scale(.9);
 }
 
 .social-icon:hover {
-  transform: scale(1.2);
-  transition: all 135ms ease;
+  transform: scale(1.1);
+  transition: all 500ms ease;
 }
