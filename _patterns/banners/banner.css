@@ -6,7 +6,19 @@
   height: 100vh;
 }
 
-h1 {
-  color: #fff;
+.banner-two {
+  background-image: url(/images/nom-nom.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-text {
+  color: #000;
   letter-spacing: 2px;
+}
+
+.button-banner {
+  top: 350px;
 }

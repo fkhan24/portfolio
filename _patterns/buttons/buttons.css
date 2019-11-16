@@ -5,8 +5,8 @@
 }
 
 .btn:hover {
-  background-color: #BF264F;
-  border-color: #BF264F;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .btn:focus {
