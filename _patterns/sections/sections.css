@@ -39,7 +39,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 100vh;
 }
 
 .layer {
@@ -111,5 +111,8 @@ section {
 
 li {
   font-family: var(--font-secondary);
-  font-weight: 600;
+}
+
+.profile {
+  height: 30vh;
 }

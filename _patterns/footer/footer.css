@@ -1,5 +1,5 @@
 footer {
-  background-color: #2d2a3b;
+  background-color: var(--color-primary);
   color: #fff;
   font-family: var(--font-secondary);
 }
