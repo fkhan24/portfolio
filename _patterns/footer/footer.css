@@ -1,7 +1,7 @@
 footer {
   background-color: var(--color-primary);
   color: #fff;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .social-icon {

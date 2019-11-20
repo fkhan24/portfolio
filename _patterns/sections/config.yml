@@ -4,25 +4,14 @@ description: |
 
 patterns:
   bio:
-    title: "About SECTION"
+    title: "About Section"
     description: |
       Used to write bography about yoursel
-  text-section:
+  text:
     title: "Text Section"
     description: |
       Used for large bodies of text.
     fields:
-      - name: header
-        type: string
-        example: "What is Aromatherapy?"
       - name: text
         type: string
-        example: "Aromatherapy is a pseudoscience. It uses aromatic materials, including essential oils, and other aroma compounds, with claims for improving psychological or physical well-being."
-  form-section:
-    title: "Form Section"
-    description: |
-      Used to separate form content.
-  email-section:
-    title: "Email Section"
-    description: |
-      Used to separate email capture for subscription lists.
+        example: "blah blah blah"

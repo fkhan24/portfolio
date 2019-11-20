@@ -1,0 +1,19 @@
+title: "Cards"
+description: |
+  Card are used for linking images to page content.
+
+patterns:
+  cards:
+    title: "Card"
+    description: |
+      Used to access work page my clicking on the card box.
+    fields:
+      - name: image
+        type: string
+        example: "placeholder-2.jpg"
+      - name: url
+        type: string
+        example: "work"
+      - name: header
+        type: string
+        example: "Project 1"

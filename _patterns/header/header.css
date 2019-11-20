@@ -9,7 +9,7 @@
 .nav-colour {
   color: #fff;
   text-decoration: none;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-weight: lighter;
 }
 
@@ -30,5 +30,5 @@
 
 .title {
   color: #000;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
