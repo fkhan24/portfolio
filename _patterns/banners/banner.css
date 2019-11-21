@@ -6,8 +6,16 @@
   height: 100vh;
 }
 
-.banner-two {
+.banner-buchi {
   background-image: url(/images/blueberry.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-tomaso {
+  background-image: url(/images/tomaso-hat.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

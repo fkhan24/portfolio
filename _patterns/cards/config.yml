@@ -10,10 +10,10 @@ patterns:
     fields:
       - name: image
         type: string
-        example: "placeholder-2.jpg"
+        example: "blueberry-1by1.jpg"
       - name: url
         type: string
-        example: "work"
+        example: "/be-buchi/"
       - name: header
         type: string
-        example: "Project 1"
+        example: "Be-Buchi Package"

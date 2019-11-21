@@ -1,10 +1,10 @@
 .layer:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.8);
   transition: all .2s linear;
 }
 
 .layer:hover h1 {
-  display: none;
+  display: block;
   transition: all .2s linear;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .layer {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0);
   position: absolute;
   top: 0;
   left: 0;
@@ -25,28 +25,11 @@
   height: 100%;
 }
 
-.layer:hover {
-  background-color: rgba(0, 0, 0, 0);
-  transition: all .2s linear;
-}
-
-.layer:hover h1 {
-  display: none;
-  transition: all .2s linear;
-}
-
 h1 {
-  color: #fff;
+  color: #e37a36;
+  display: none;
   letter-spacing: 2px;
   font-family: var(--font-secondary)
-}
-
-.box-1 {
-  background-color: #801935;
-}
-
-.box-2 {
-  background-color: #631429;
 }
 
 .hover-box-type {
@@ -62,12 +45,12 @@ h1 {
 }
 
 .hover-box-img {
-  filter: grayscale(0%);
+  background-color: rgba(255, 255, 255, 0.5);
   transition: all .2s linear;
 }
 
 .hover-box:hover .hover-box-img, .hover-box:focus {
-  filter: grayscale(0);
+  background-color: rgba(255, 255, 255, 0.5);
   transform: scale(1.1);
 }
 

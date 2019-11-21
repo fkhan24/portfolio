@@ -1,5 +1,5 @@
 .about-text {
-  color: #000;
+  color: var(--color-secondary);
   font-family: var(--font-primary);
 }
 
@@ -8,24 +8,24 @@ section {
 }
 
 .name {
-  color: #801935;
+  color: var(--color-orange);
 }
 
 h2, .about-title {
-  color: #801935;
+  color: var(--color-primary-light);
   font-family: var(--font-secondary);
 }
 
 .hr-one {
   color: #801935;
-  border-top: 3px solid #801935;
-  max-width: 145px;
+  border-top: 1px solid #801935;
+  max-width: 0;
 }
 
 .hr-two {
   color: #801935;
-  border-top: 3px solid #801935;
-  max-width: 270px;
+  border-top: 1px solid #801935;
+  max-width: 0;
 }
 
 li {
@@ -34,4 +34,10 @@ li {
 
 .profile {
   height: 30vh;
+}
+
+em {
+  background-color: var(--color-orange);
+  color: #fff;
+  font-family: var(--font-primary);
 }

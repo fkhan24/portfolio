@@ -13,3 +13,11 @@ patterns:
       - name: text
         type: string
         example: "Welcome to my page!."
+  banner-two:
+    title: "Project Banner"
+    description: |
+      Banner used for each project page.
+    fields:
+      - name: class
+        type: string
+        example: "banner-buchi"
