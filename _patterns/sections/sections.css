@@ -43,3 +43,8 @@ li {
 .profile {
   height: 30vh;
 }
+
+.img-3by2 {
+  max-width: 850px;
+  margin: 0 auto;
+}
