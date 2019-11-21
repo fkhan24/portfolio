@@ -11,9 +11,17 @@ section {
   color: var(--color-orange);
 }
 
+.project-header {
+  font-family: var(--font-secondary);
+  color: var(--color-orange);
+  letter-spacing: 2px;
+
+}
+
 h2, .about-title {
   color: var(--color-primary-light);
   font-family: var(--font-secondary);
+  letter-spacing: 2px;
 }
 
 .hr-one {
@@ -34,10 +42,4 @@ li {
 
 .profile {
   height: 30vh;
-}
-
-em {
-  background-color: var(--color-orange);
-  color: #fff;
-  font-family: var(--font-primary);
 }
