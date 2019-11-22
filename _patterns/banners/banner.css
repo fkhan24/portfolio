@@ -30,6 +30,14 @@
   height: 90vh;
 }
 
+.banner-ar {
+  background-image: url(/images/AR-cover-1by1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
 .banner-text {
   color: #000;
   letter-spacing: 2px;
