@@ -30,3 +30,11 @@ patterns:
       - name: image
         type: url
         example: "placeholder.jpg"
+  image-2:
+    title: "Image Section"
+    description: |
+      Used to embed any image in the projects page.
+    fields:
+      - name: image
+        type: url
+        example: "mandala.jpg"
