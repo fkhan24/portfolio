@@ -1,5 +1,5 @@
 .header-banner {
-  background-color: #000;
+  background-color: #e2e2e2;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,20 +7,20 @@
 }
 
 .nav-colour {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-family: var(--font-primary);
   font-weight: normal;
 }
 
 .nav-colour:hover {
-  color: #fff;
+  color: #000;
   border: solid;
   border-top: 0;
   border-left: 0;
   border-right: 0;
   border-bottom-width: thin;
-  border-color: #fff;
+  border-color: #000;
 }
 
 .logo {
