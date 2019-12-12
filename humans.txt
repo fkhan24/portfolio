@@ -1,0 +1,26 @@
+# humanstxt.org
+
+# TEAM
+
+Designer: Fatima Khan <contact@fatimakhandesigns.ca>
+Site: http://fatimakhandesigns.ca
+Instagram: @megan.designer
+Location: Ottawa, Canada
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom Text Editor
+- Github
+- Adobe Creative Suite
+
+## Hosting
+
+- Netlify <https://www.netlify.com>
+- Github <https://github.com>
+- Hover <https://www.hover.com>
+- CloudFlare <https://cloudflare.com>
+- FastMail <https://www.fastmail.com>
