@@ -1,5 +1,5 @@
 .header-banner {
-  background-color: var(--color-neutral);
+  background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,14 +7,14 @@
 }
 
 .nav-colour {
-  color: #000;
+  color: var(--color-primary);
   text-decoration: none;
   font-family: var(--font-primary);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .nav-colour:hover {
-  color: #000;
+  color: var(--color-primary-light);
   border: solid;
   border-top: 0;
   border-left: 0;

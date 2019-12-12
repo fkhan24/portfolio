@@ -11,8 +11,6 @@ patterns:
       - name: text
         type: string
         example: "My Work"
-        required: false
-      - name: button_url
-        type: url
-        example: "/work/"
-        required: false
+      - name: url
+        type: string
+        example: "/index/"

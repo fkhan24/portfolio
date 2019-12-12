@@ -8,7 +8,7 @@ section {
 }
 
 .name {
-  color: var(--color-orange);
+  color: var(--color-primary);
 }
 
 .project-header {
@@ -47,4 +47,27 @@ li {
 .img-3by2 {
   max-width: 850px;
   margin: 0 auto;
+}
+
+.bio {
+  background-color: #e2e2e2;
+}
+
+.notfound-banner {
+  background-image: url(/images/background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.notfound-header {
+  font-size: 10rem;
+  color: #fff;
+  padding-bottom: 2.5rem;
+}
+
+.notfound-body {
+  font-size: 1rem;
+  color: #fff;
 }
