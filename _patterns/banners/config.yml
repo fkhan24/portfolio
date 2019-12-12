@@ -21,3 +21,6 @@ patterns:
       - name: class
         type: string
         example: "banner-buchi"
+      - name: header
+        type: string
+        example: "Welcome to my page!."

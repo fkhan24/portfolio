@@ -8,7 +8,7 @@ patterns:
       Default to using the main button.
     width: "12em"
     fields:
-      - name: button_text
+      - name: text
         type: string
         example: "My Work"
         required: false

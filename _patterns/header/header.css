@@ -1,5 +1,5 @@
 .header-banner {
-  background-color: #e2e2e2;
+  background-color: var(--color-neutral);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,8 +19,8 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom-width: thin;
-  border-color: #000;
+  border-bottom-width: medium;
+  border-color: var(--color-primary-light);
 }
 
 .logo {
