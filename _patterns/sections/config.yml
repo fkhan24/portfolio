@@ -24,6 +24,25 @@ patterns:
       - name: header
         type: string
         example: "Project 1"
+  header-text:
+    title: "Header Text Style"
+    description: |
+      The Header Text is to be used anywhere where there is a header on the website.
+    fields:
+      - name: header
+        type: string
+        example: "Who am I?"
+  project-text:
+    title: "Project Info Section"
+    description: |
+      The <i>Project Info Section</i> is to be presented on every project page to showcase the imagery and description of the project itself. It can be combined with text and navigation.
+    fields:
+      - name: section_text
+        type: string
+        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
+      - name: section_header
+        type: string
+        example: "Who am I?"
   not-found:
     title: "404 Page"
     description: |
