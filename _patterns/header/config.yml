@@ -1,2 +1,19 @@
 description: |
   Header acts as placeholder for navigation and cart button.
+patterns:
+  header:
+    title: "Card"
+    description: |
+      Used to navigate through pages on the website.
+  header-2:
+    cards:
+      title: "Project Header"
+      description: |
+        Used for title and sub-heading on work page.
+      fields:
+        - name: header
+          type: string
+          example: "Tomaso"
+        - name: text
+          type: string
+          example: "Logo/Branding"

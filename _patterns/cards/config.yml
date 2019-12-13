@@ -17,3 +17,8 @@ patterns:
       - name: header
         type: string
         example: "Be-Buchi Package"
+  layout-cards:
+    title: "Layout Card"
+    description: |
+    fields:
+      - name:
