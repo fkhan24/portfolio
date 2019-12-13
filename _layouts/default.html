@@ -21,24 +21,21 @@
 </head>
 <body>
 
-  <ul class="skip-links">
-    <li>
-      <a href="#nav">Jump to nav</a>
-      <a href="#main">Jump to main content</a>
-    </li>
-  </ul>
+  <nav id="nav" role="nav">
+    {% pattern header/header %}
+  </nav>
 
-<nav id="nav" role="nav">
-  {% pattern header/header %}
-</nav>
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
 
-<div role="main" id="main" tabindex="0">
-  {{content}}
-</div>
+  <div role="contentinfo" tabindex="0">
+    {% pattern footer/bottom-footer %}
+  </div>
 
-<div role="contentinfo" tabindex="0">
-  {% pattern footer/bottom-footer %}
-</div>
+  {% pattern sections/seo %}
+
+  <script src="/js/main.js"></script>
 
 </body>
 </html>

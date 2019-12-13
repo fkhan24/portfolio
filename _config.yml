@@ -6,3 +6,20 @@ patternbot:
   description: |
     My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to use my art to visually inspire others.
   font_url: "https://use.typekit.net/zie4gmv.css"
+  colors:
+    background: "--color-white"
+    accent: "--color-secondary"
+    patterns:
+      brand-logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Source Sans Pro was selected because it is a readble font and can be used
+    colors.primary: |
+      The primary colours are a set of monochromatic colours which are used for text & icons
+    colors.secondary: |
+      The secondary colour is used for the header and background colour.
+    colors.accent: |
+      The accent colour is used as a secondary neutral background colour.
+  layouts:
+    default: |
+      The default layout should be used for every page.
