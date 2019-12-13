@@ -32,7 +32,7 @@ patterns:
       - name: header
         type: string
         example: "Who am I?"
-  project-text:
+  text:
     title: "Project Info Section"
     description: |
       The <i>Project Info Section</i> is to be presented on every project page to showcase the imagery and description of the project itself. It can be combined with text and navigation.
