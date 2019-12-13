@@ -7,23 +7,23 @@ patterns:
     title: "About Section"
     description: |
       Used to write biography about yourself.
-  text:
+  default-text:
     title: "Default Text Section"
     description: |
       The default text is to be used anywhere on the website where there is a chunk of text that needs to be placed with styling.
     fields:
       - name: text1
         type: string
-        example: "blaaaah."
+        example: "Intro"
       - name: text2
         type: string
-        example: "blaaah"
+        example: "Main"
       - name: text3
         type: string
-        example: "blaaaah"
+        example: "Conclusion"
       - name: header
         type: string
-        example: "Who am I?"
+        example: "Project 1"
   not-found:
     title: "404 Page"
     description: |

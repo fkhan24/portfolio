@@ -8,7 +8,7 @@ section {
 }
 
 .name {
-  color: var(--color-primary);
+  color: var(--color-primary-light);
 }
 
 .project-header {
@@ -50,7 +50,7 @@ li {
 }
 
 .bio {
-  background-color: #e2e2e2;
+  background-color: #fff;
 }
 
 .notfound-banner {
