@@ -2,16 +2,43 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Fatima Khan</title>
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.desc}}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="ICBM" content="45.41117.-75.69812">
+  <meta name="geo.position" content="45.41117.-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{page.title}}">
+  <meta property="og:url" content="https://fatimakhandesigns.ca{{page.url}}">
+  <meta property="og:image" content="https://fatimakhandesigns/images/logo.svg">
+  <meta property="og:site_name" content="Fatima Khan">
+  <meta property="og:description" content="{{page.desc}}">
+  <meta property="og:locale" content="en_CA">
   <link href="/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/zie4gmv.css">
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li>
+      <a href="#nav">Jump to nav</a>
+      <a href="#main">Jump to main content</a>
+    </li>
+  </ul>
+
+<nav id="nav" role="nav">
   {% pattern header/header %}
+</nav>
+
+<div role="main" id="main" tabindex="0">
   {{content}}
+</div>
+
+<div role="contentinfo" tabindex="0">
   {% pattern footer/bottom-footer %}
+</div>
 
 </body>
 </html>

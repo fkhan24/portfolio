@@ -51,3 +51,15 @@ patterns:
       - name: image
         type: url
         example: "mandala.jpg"
+  image-3:
+    title: "Image Section"
+    description: |
+      Used to embed any 2by3 image.
+    fields:
+      - name: image
+        type: url
+        example: "profile.jpg"
+  seo:
+    title: "SEO"
+    description: |
+      The SEO will be used on every layout page as it contains the general data for search engine optimization.
