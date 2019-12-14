@@ -1,13 +1,46 @@
 ---
 layout: default
 highlight_nav: illustrations
+url : "fatimakhandesigns.ca/illustrations"
 title: "Illustrations · A few of my illustrations that i've completed in my spare time · Ottawa, Canada"
 desc: "A few of my illustrations that i've completed in my spare time"
 ---
 {% pattern banners/banner-two %}
 
-{% pattern sections/header-text header="Mandala" %}
-{% pattern sections/image-2 image="mandala-2.jpg" %}
-{% pattern sections/image-2 image="mandala.jpg" %}
-{% pattern sections/header-text header="Portraits" %}
-{% pattern sections/image-2 image="hair-illustration-1by1.jpg" %}
+{% pattern sections/default-text
+  header="Illustrations" subhead="Here's some of the work I do in my free time!"
+  text1="I love to draw. I like to work with different mediums like paints, charcoal, ink, and coloured pencils. I've also been doing henna for awhile and incorporate that skill into my mandala illustrations. I mostly draw portraits and real life images, but have started to create artwork digitally as well." %}
+
+<div class="pad-t-2 pad-b-2 gutter-2">
+  {% pattern sections/header-text header="Mandala" %}
+  {% pattern sections/image-2 image="mandala-2.jpg" %}
+  {% pattern sections/image-2 image="mandala.jpg" %}
+  {% pattern sections/header-text header="Portraits" %}
+  {% pattern sections/image-2 image="hair-illustration-1by1.jpg" %}
+</div>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Illustrations",
+    "author": {
+      "@type": "Person",
+      "name": "Fatima Khan"
+    },
+    "image": "https://fatimakhandesigns.ca/images/illustartions/mandala-1by1.jpg",
+    "url": "https://fatimakhandesigns.ca/illustrations",
+    "dateCreated": "2019",
+    "dateModified": "2019",
+    "description": "Illustrations of mine",
+    "keywords": "Illustrations, Design, Sketch",
+    "accountablePerson": "Fatima Khan",
+    "locationCreated": {
+      "@type": "AdministrativeArea",
+      "name": "Ottawa"
+    },
+    "sourceOrganization": "Illustrations",
+    "copyrightHolder": "Fatima Khan",
+    "copyrightYear": "2019"
+  }
+</script>
