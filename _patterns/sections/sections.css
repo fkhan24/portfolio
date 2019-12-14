@@ -7,7 +7,7 @@ section {
   background-color: #fff;
 }
 
-.name {
+.name, .sub-head {
   color: var(--color-primary-light);
 }
 
@@ -24,16 +24,13 @@ h2, .about-title {
   letter-spacing: 2px;
 }
 
-.hr-one {
-  color: #801935;
-  border-top: 1px solid #801935;
-  max-width: 0;
+.main-text {
+  color: var(--color-black);
 }
 
-.hr-two {
-  color: #801935;
-  border-top: 1px solid #801935;
-  max-width: 0;
+.header-text {
+  font-weight: 800;
+  color: var(--color-primary);
 }
 
 li {

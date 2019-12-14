@@ -12,18 +12,21 @@ patterns:
     description: |
       The default text is to be used anywhere on the website where there is a chunk of text that needs to be placed with styling.
     fields:
-      - name: text1
-        type: string
-        example: "Intro"
-      - name: text2
-        type: string
-        example: "Main"
-      - name: text3
-        type: string
-        example: "Conclusion"
       - name: header
         type: string
-        example: "Project 1"
+        example: "Case Study"
+      - name: subhead
+        type: string
+        example: "Logo/Branding"
+      - name: text1
+        type: string
+        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
+      - name: text2
+        type: string
+        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
+      - name: text3
+        type: string
+        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
   header-text:
     title: "Header Text Style"
     description: |
@@ -31,18 +34,7 @@ patterns:
     fields:
       - name: header
         type: string
-        example: "Who am I?"
-  text:
-    title: "Project Info Section"
-    description: |
-      The <i>Project Info Section</i> is to be presented on every project page to showcase the imagery and description of the project itself. It can be combined with text and navigation.
-    fields:
-      - name: section_text
-        type: string
-        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
-      - name: section_header
-        type: string
-        example: "Who am I?"
+        example: "Case Study"
   not-found:
     title: "404 Page"
     description: |

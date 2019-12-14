@@ -7,7 +7,7 @@
 }
 
 .header-two {
-  background-color: var(--color-black);
+  background-color: var(--color-primary);
 }
 
 .project-title, .project-desc {

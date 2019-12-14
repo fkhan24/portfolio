@@ -21,4 +21,6 @@ patterns:
     title: "Layout Card"
     description: |
     fields:
-      - name:
+      - name: image
+        type: string
+        example: "tomaso-hat.jpg"

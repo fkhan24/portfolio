@@ -8,12 +8,12 @@ patternbot:
   font_url: "https://use.typekit.net/zie4gmv.css"
   colors:
     background: "--color-white"
-    accent: "--color-secondary"
+    accent: "--color-primary-light"
     patterns:
-      brand-logos: "--color-secondary"
+      brand-logos: "--color-primary"
   rationales:
     typefaces.primary: |
-      Source Sans Pro was selected because it is a readble font and can be used
+      Source Sans Pro was selected because it is a readable font and can be used for all body text.
     colors.primary: |
       The primary colours are a set of monochromatic colours which are used for text & icons
     colors.secondary: |
