@@ -1,68 +1,11 @@
-nav li a {
-  text-decoration: none;
-  color: var(--color-primary-blue);
-}
-
-li a:hover {
-  color: #000;
-}
-
-focus:active {
-  padding-bottom: .2em;
-  border-bottom: solid 3px var(--color-primary);
-}
-
-label {
-  vertical-align: top;
-}
-
-.nav-1 {
-  display: none;
-  top: 50px;
-  right: 0;
-  width: 15em;
-}
-
-.nav-check{
-  position: absolute;
-  top: -4%;
-}
-
-.nav-check:checked ~ .nav-1 {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
-}
-
 .text-decoration {
-  color: var(--color-primary-light);
+  color: var(--color-black);
 }
 
 .decoration {
   text-decoration: none;
   list-style: none;
-  color: var(--color-primary-light);
+  color: var(--color-black);
 }
 
 .logo-icon {
