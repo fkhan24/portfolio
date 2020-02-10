@@ -1,11 +1,15 @@
+.header-nav {
+  background: var(--color-black);
+}
+
 .text-decoration {
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 .decoration {
   text-decoration: none;
   list-style: none;
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 .logo-icon {
