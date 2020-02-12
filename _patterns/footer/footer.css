@@ -1,6 +1,6 @@
 footer {
-  background-color: #f2f2f2;
-  color: var(--color-primary-light);
+  background-color: var(--color-white);
+  color: var(--color-black);
   font-family: var(--font-primary);
 }
 
