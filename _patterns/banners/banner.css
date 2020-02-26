@@ -42,10 +42,6 @@
   color: var(--color-white);
 }
 
-.button-banner {
-  top: 350px;
-}
-
 .banner-nav {
   background-color: var(--color-black);
   color: var(--color-white);
@@ -56,9 +52,9 @@
   background-image: url(/images/background-1.jpeg);
 }
 
-.header-title {
+.banner-title {
   color: var(--color-white);
-  line-height: 0px;
+  margin: 0;
 }
 
 .decoration, .header-text {
@@ -80,4 +76,22 @@ h3 {
 .logo-icon {
   margin: auto;
   width: 200px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-title {
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-title {
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
 }
