@@ -1,12 +1,12 @@
 footer {
-  background-color: var(--color-white);
-  color: var(--color-black);
+  background-color: var(--color-black);
+  color: var(--color-white);
   font-family: var(--font-primary);
 }
 
 .social-icon {
-  max-width: 3em;
-  transform: scale(.9);
+  max-width: 2em;
+  transform: scale(1);
 }
 
 .social-icon:hover {
