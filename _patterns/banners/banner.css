@@ -85,6 +85,10 @@ h3 {
     margin: 0;
   }
 
+  .tenakilo {
+    font-size: 0rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
