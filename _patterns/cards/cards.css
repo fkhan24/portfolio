@@ -26,10 +26,10 @@
 }
 
 .card-head {
-  color: var(--color-secondary);
+  color: var(--color-primary-light);
   display: none;
   letter-spacing: 2px;
-  font-family: var(--font-secondary)
+  font-family: var(--font-primary)
 }
 
 .hover-box-type {
@@ -45,12 +45,12 @@
 }
 
 .hover-box-img {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 1);
   transition: all .2s linear;
 }
 
 .hover-box:hover .hover-box-img, .hover-box:focus {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 1);
   transform: scale(1.1);
 }
 

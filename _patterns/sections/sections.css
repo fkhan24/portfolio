@@ -1,6 +1,7 @@
 .about-text {
   color: var(--color-black);
   font-family: var(--font-primary);
+  line-height: 1.5em;
 }
 
 section {
@@ -67,4 +68,8 @@ li {
 .notfound-body {
   font-size: 1rem;
   color: #fff;
+}
+
+.bold {
+  font-weight: bold;
 }

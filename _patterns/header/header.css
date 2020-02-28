@@ -27,6 +27,14 @@
   width: 200px;
 }
 
+.main-logo {
+  width: 50px;
+}
+
+.current:hover {
+  color: var(--color-primary-light);
+}
+
 @media only screen and (min-width: 38em) {
 
   .header-nav {
