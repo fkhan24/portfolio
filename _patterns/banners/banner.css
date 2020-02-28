@@ -38,6 +38,14 @@
   height: 90vh;
 }
 
+.banner-tea {
+  background-image: url(/images/GreenTea-Mockup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
 .banner-content {
   color: var(--color-white);
 }
