@@ -9,7 +9,7 @@ section {
 }
 
 .name, .sub-head {
-  color: var(--color-primary-light);
+  color: var(--color-secondary);
 }
 
 .project-header {
@@ -72,4 +72,5 @@ li {
 
 .bold {
   font-weight: bold;
+  color: var(--color-primary-light);
 }
