@@ -6,29 +6,3 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
-
-html {
-  color: #585858;
-  background-color: #e2e2e2;
-}
-
-h1 {
-  font-family: "Lust", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h2, p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.social-icon {
-  max-width: 3.75em;
-}
-
-.social-icon:hover {
-  transform: scale(1.2);
-  transition: all 135ms ease;
-}
