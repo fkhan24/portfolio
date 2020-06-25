@@ -1,2 +1,9 @@
+title: "Footer"
 description: |
   Footer acts as placeholder for copyright information.
+
+patterns:
+  bottom-footer:
+    title: "Bottom Footer"
+    description: |
+      Footer acts as placeholder for copyright information.
