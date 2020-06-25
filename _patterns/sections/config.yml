@@ -3,10 +3,6 @@ description: |
   Sections are used for organizing large chunks of content.
 
 patterns:
-  bio:
-    title: "About Section"
-    description: |
-      Used to write biography about yourself.
   default-text:
     title: "Default Text Section"
     description: |
@@ -20,13 +16,13 @@ patterns:
         example: "Logo · Branding"
       - name: text1
         type: string
-        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
+        example: "Hello! My name is Fatima and I am an Ottawa-based graphic designer who seeks to spread diversity. I started off my path into the design world with an interest in visual arts throughout high school. Becoming a graphic designer really helped me discover that I could do more with my illustrations. Since then, I’ve come to love everything that has to do with branding, illustration, packaging, and hand lettering. "
       - name: text2
         type: string
-        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
+        example: "When I’m not staring at my laptop all day, I enjoy being outdoors, painting, cooking and eating, sleeping, watching TV shows and spending time with my family. My addictions are; Coca Cola, donuts, ice cream and cute animals. "
       - name: text3
         type: string
-        example: "My love for art and creativity is what motivated me to pursue a career as a graphic designer. To me, being a designer means that there is no limit. I take pride in my work and want to be able to visually inspire others with my art."
+        example: "As a designer, I believe that we have the opportunity to connect with the rest of the world and help others. I take pride in my work and want to create beautiful designs that can help make a difference. "
   header-text:
     title: "Header Text Style"
     description: |

@@ -1,5 +1,5 @@
-.banner {
-  background-image: url(/images/background.jpeg);
+.banner-nav {
+  background-image: url(/images/banner.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,44 +46,19 @@
   height: 90vh;
 }
 
-.banner-content {
-  color: var(--color-white);
-}
-
-.banner-nav {
-  background-color: var(--color-black);
-  color: var(--color-white);
-  height: 80vh;
-}
-
 .header-2 {
   background-image: url(/images/background-1.jpeg);
 }
 
 .banner-title {
-  color: var(--color-white);
+  color: var(--color-black);
   margin: 0;
-}
-
-.decoration, .header-text {
-  text-decoration: none;
-  list-style: none;
-  color: var(--color-white);
 }
 
 h3 {
   font-weight: normal;
   color: var(--color-primary-light);
 
-}
-
-.icon-link:hover {
-  color: var(--color-primary-light);
-}
-
-.logo-icon {
-  margin: auto;
-  width: 200px;
 }
 
 @media only screen and (min-width: 38em) {
