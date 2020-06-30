@@ -47,6 +47,13 @@ header {
   color: var(--color-primary);
 }
 
+/**
+ * Smooth scrolling inside an element
+ */
+html {
+	scroll-behavior: smooth;
+}
+
 @media only screen and (min-width: 38em) {
 
     .logo-p {
