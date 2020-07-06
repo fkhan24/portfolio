@@ -8,9 +8,9 @@ patternbot:
   font_url: "https://use.typekit.net/zie4gmv.css"
   colors:
     background: "--color-white"
-    accent: "--color-primary-light"
+    accent: "--color-accent"
     patterns:
-      brand-logos: "--color-primary"
+      brand-logos: "--color-accent"
   rationales:
     typefaces.primary: |
       Source Sans Pro was selected because it is a readable font and can be used for all body text.

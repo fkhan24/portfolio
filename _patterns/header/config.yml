@@ -2,6 +2,7 @@ description: |
   Header acts as placeholder for navigation and cart button.
 patterns:
   header:
-    title: "Header nav"
+    title: "Header"
     description: |
       Used to navigate through pages on the website.
+    background: "--color-accent"
