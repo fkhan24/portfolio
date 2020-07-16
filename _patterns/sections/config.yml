@@ -10,10 +10,7 @@ patterns:
     fields:
       - name: header
         type: string
-        example: "Case Study"
-      - name: subhead
-        type: string
-        example: "Logo · Branding"
+        example: "About Me"
       - name: text1
         type: string
         example: "Hello! My name is Fatima and I am an Ottawa-based graphic designer who seeks to spread diversity. I started off my path into the design world with an interest in visual arts throughout high school. Becoming a graphic designer really helped me discover that I could do more with my illustrations. Since then, I’ve come to love everything that has to do with branding, illustration, packaging, and hand lettering. "
@@ -23,6 +20,29 @@ patterns:
       - name: text3
         type: string
         example: "As a designer, I believe that we have the opportunity to connect with the rest of the world and help others. I take pride in my work and want to create beautiful designs that can help make a difference. "
+  project-text:
+    title: "Project Text Section"
+    description: |
+      The project text is to be used for all case studies when a project card is selected.
+    fields:
+      - name: header
+        type: string
+        example: "Case Study"
+      - name: subhead
+        type: string
+        example: "Logo · Branding"
+      - name: target
+        type: string
+        example: "Pizza Lovers"
+      - name: text1
+        type: string
+        example: "Tomaso is a small family owned restaurant that specialize in grilled pizza’s and panini. I wanted to create a new brand identity that implement the values and nature that the owners bring to their customers, and help them to gain recognition and success in the future."
+      - name: text2
+        type: string
+        example: "To start the process of my research, it was ideal for me to seek what makes them different from any other pizza place. Since they are known for their freshness, wood fired pizza and grilled smoky flavour, I wanted the new logo to reflect on that. Following the mood board, I started my sketching process and brought together a few variations of what I wanted the logo to represent."
+      - name: text3
+        type: string
+        example: "After choosing two logo concepts that would best fit my target audience, they were presented to a creative team and with the feedback I was given, my second concept was seen as the most effective for this project."
   header-text:
     title: "Header Text Style"
     description: |
@@ -61,7 +81,7 @@ patterns:
   image-3:
     title: "Image Section"
     description: |
-      Used to embed any 2by3 image.
+      Used to embed any 3by2 image.
     fields:
       - name: image
         type: url
