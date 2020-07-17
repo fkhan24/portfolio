@@ -6,16 +6,15 @@ title: "Illustrations · A few of my illustrations that i've completed in my spa
 desc: "A few of my illustrations that i've completed in my spare time"
 ---
 
-{% pattern sections/default-text
-  header="Illustrations" subhead="Here's some of the work I do in my free time!"
-  text1="I love to draw. I like to work with different mediums like paints, charcoal, ink, and coloured pencils. I've also been doing henna for awhile and incorporate that skill into my mandala illustrations. I mostly draw portraits and real life images, but have started to create artwork digitally as well." %}
+  <section id="about" class="about-section pad-t-1-2 pad-b-1-2">
+    {% pattern sections/default-text header="Illustrations" text1="Here's some of the work I do in my free time! " text2="I love to draw. I like to work with different mediums like paints, charcoal, ink, and coloured pencils. I've also been doing henna for awhile and incorporate that skill into my mandala illustrations. I mostly draw portraits and real life images, but have started to create artwork digitally as well. " %}
+  </section>
 
-<div class="pad-t-2 pad-b-2 gutter-2">
-  {% pattern sections/header-text header="Mandala" %}
-  {% pattern sections/image-2 image="mandala-2.jpg" %}
-  {% pattern sections/image-2 image="mandala.jpg" %}
-  {% pattern sections/header-text header="Portraits" %}
-  {% pattern sections/image-2 image="hair-illustration-1by1.jpg" %}
+  <section id="work" class="grid text-center card-section max-length">
+    {% pattern sections/image-2 image="mandala-2.jpg" %}
+    {% pattern sections/image-2 image="mandala.jpg" %}
+    {% pattern sections/image-2 image="hair-illustration-1by1.jpg" %}
+  </section>
 </div>
 
 <script type="application/ld+json">

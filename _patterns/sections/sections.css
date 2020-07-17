@@ -7,17 +7,11 @@ section {
   color: var(--color-secondary);
 }
 
-.project-header {
+h1, h2, h3, h4 {
   font-family: var(--font-secondary);
-  color: var(--color-orange);
-  letter-spacing: 2px;
-
-}
-
-h2 {
-  color: var(--color-primary-light);
-  font-family: var(--font-secondary);
-  letter-spacing: 2px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
 }
 
 .main-text {
