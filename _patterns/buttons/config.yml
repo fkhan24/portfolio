@@ -10,7 +10,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "My Work"
+        example: "E-mail"
       - name: url
         type: string
         example: "/index/"
