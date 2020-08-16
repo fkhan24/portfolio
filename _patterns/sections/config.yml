@@ -78,6 +78,9 @@ patterns:
       - name: image
         type: url
         example: "mandala.jpg"
+      - name: figcaption
+        type: string
+        example: "Mandala"
   image-3:
     title: "Image Section"
     description: |
