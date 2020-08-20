@@ -47,6 +47,11 @@ header {
   color: var(--color-primary);
 }
 
+.nav-btn:hover {
+  color: var(--color-primary);
+  border-bottom: solid;
+}
+
 /**
  * Smooth scrolling inside an element
  */
