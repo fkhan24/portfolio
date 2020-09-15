@@ -2,6 +2,15 @@ header {
   background-color: #f6f6f6;
 }
 
+/*
+.header-fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+*/
+
+
 .logo-p {
   text-align: center;
 }
