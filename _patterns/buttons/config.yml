@@ -14,3 +14,15 @@ patterns:
       - name: url
         type: string
         example: "/index/"
+  button-white:
+    title: "White Button"
+    description: |
+      Can be used when there is a section with a background colour.
+    width: "12em"
+    fields:
+      - name: text
+        type: string
+        example: "Illustrations"
+      - name: url
+        type: string
+        example: "/index/"

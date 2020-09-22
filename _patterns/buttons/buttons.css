@@ -1,5 +1,23 @@
 .btn-one {
   border-radius: 100px;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-white);
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  transition: all 500ms ease;
+}
+
+.btn:focus {
+  outline: 3px solid #fff;
+}
+
+.btn-two {
+  border-radius: 100px;
   background-color: transparent;
   border-color: var(--color-primary);
   color: var(--color-primary);
@@ -13,6 +31,13 @@
   transition: all 500ms ease;
 }
 
-.btn:focus {
+.btn-two:hover {
+  color: #fff;
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  transition: all 500ms ease;
+}
+
+.btn-two:focus {
   outline: 3px solid #fff;
 }
