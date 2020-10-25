@@ -1,5 +1,5 @@
 header {
-  background-color: #f6f6f6;
+  background-color: var(--color-secondary);
 }
 
 /*
@@ -53,11 +53,11 @@ header {
 }
 
 .nav-btn {
-  color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .nav-btn:hover {
-  color: var(--color-primary);
+  color: var(--color-white);
   border-bottom: solid;
 }
 
