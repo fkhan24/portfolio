@@ -8,6 +8,11 @@
   transition: all .2s linear;
 }
 
+.layer:hover p {
+  display: block;
+  transition: all .2s linear;
+}
+
 .background {
   background-image: url(/images/blueberry.jpg);
   background-position: center;
@@ -26,6 +31,13 @@
 }
 
 .card-head {
+  color: var(--color-white);
+  display: none;
+  letter-spacing: 2px;
+  font-family: var(--font-primary)
+}
+
+.card-sub {
   color: var(--color-white);
   display: none;
   letter-spacing: 2px;
