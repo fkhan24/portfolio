@@ -1,9 +1,9 @@
 .layer:hover {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(0, 0, 0, .7);
   transition: all .2s linear;
 }
 
-.layer:hover h1 {
+.layer:hover h2 {
   display: block;
   transition: all .2s linear;
 }
@@ -26,7 +26,7 @@
 }
 
 .card-head {
-  color: var(--color-secondary);
+  color: var(--color-white);
   display: none;
   letter-spacing: 2px;
   font-family: var(--font-primary)
@@ -46,11 +46,6 @@
 
 .hover-box-img {
   transition: all .2s linear;
-}
-
-.hover-box:hover .hover-box-img, .hover-box:focus {
-  background-color: rgba(191, 114, 120, 1);
-  transform: scale(1.1);
 }
 
 p {

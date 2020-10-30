@@ -57,7 +57,7 @@
   background-image: url(/images/background-1.jpeg);
 }
 
-.banner-title {
+.banner-title, .banner-p {
   color: var(--color-black);
   margin: 0;
 }
