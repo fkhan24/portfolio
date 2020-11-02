@@ -20,6 +20,9 @@ patterns:
       - name: text3
         type: string
         example: "As a designer, I believe that we have the opportunity to connect with the rest of the world and help others. I take pride in my work and want to create beautiful designs that can help make a difference. "
+      - name: text4
+        type: string
+        example: "Interested in working together? Lets talk!. "
   project-text:
     title: "Project Text Section"
     description: |
